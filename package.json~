@@ -1,0 +1,31 @@
+{
+  "name": "my-project-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack",
+     "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maddesuraj/my-project-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maddesuraj/my-project-react/issues"
+  },
+  "homepage": "https://github.com/maddesuraj/my-project-react#readme",
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.15.3",
+    "webpack": "^3.2.0",
+    "webpack-dev-middleware": "^1.11.0"
+  }
+}
